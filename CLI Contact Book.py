@@ -143,8 +143,8 @@ def main():
 
         if choice == "1":
             name = input("📛 Name: ")
-            email = input("📞 Email: ")
-            phone = input("📧 Phone: ")
+            email = input("📧 Email: ")
+            phone = input("📞 Phone: ")
             address = input("🏠 Address: ")
             contactBook.add_contact(
                 Contact(name=name, email=email, phone=phone, address=address)
@@ -160,8 +160,8 @@ def main():
         elif choice == "4":
             old_name = input("📛 Enter existing contact name to update: ")
             new_name = input("📛 New Name: ")
-            new_email = input("📞 New Email: ")
-            new_phone = input("📧 New Phone: ")
+            new_email = input("📧 New Email: ")
+            new_phone = input("📞 New Phone: ")
             new_address = input("🏠 New Address: ")
             contactBook.update_contact(
                 old_name=old_name,
